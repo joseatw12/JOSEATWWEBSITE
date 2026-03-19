@@ -732,49 +732,6 @@ a:hover {
   color: var(--color-primary);
 }
 
-/* ===== TESTIMONIALS ===== */
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  gap: var(--space-6);
-}
-
-.testimonial-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-xl);
-  padding: var(--space-6);
-}
-
-.testimonial-stars {
-  display: flex;
-  gap: var(--space-1);
-  color: var(--color-accent-warm);
-  margin-bottom: var(--space-4);
-}
-
-.testimonial-stars svg {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
-}
-
-.testimonial-card blockquote {
-  font-size: var(--text-base);
-  color: var(--color-text);
-  font-style: italic;
-  line-height: 1.6;
-  margin-bottom: var(--space-4);
-}
-
-.testimonial-author {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-}
-
-.testimonial-author strong {
-  color: var(--color-text);
-}
 
 /* ===== TIKTOK COMMENTS ===== */
 .tiktok-comments-grid {
